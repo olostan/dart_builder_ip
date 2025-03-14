@@ -2,7 +2,7 @@ name: dart_builder_ip
 description: >- 
   Simplifies connecting Flutter apps to local emulators (e.g., Firebase Emulators) 
   by providing a build-time constant with the builder's IP address.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/olostan/dart_builder_ip
 
 environment:
@@ -10,12 +10,12 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
-  source_gen: ^1.5.0
+  source_gen: ^2.0.0
   build: ^2.4.1
   # path: ^1.8.0
 
 dev_dependencies:
-  lints: ^4.0.0
+  lints: ^5.1.1
   test: ^1.24.0
   build_runner: ^2.4.13
 
